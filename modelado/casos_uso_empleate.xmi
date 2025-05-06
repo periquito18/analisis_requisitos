@@ -26,10 +26,32 @@
         <packagedElement xmi:type="uml:DataType" xmi:id="uCbAJGsDnPNBb" name="StringBuffer" stereotype="dataType"/>
         <packagedElement xmi:type="uml:DataType" xmi:id="up7PvvOUBpTpH" name="StringBuilder" stereotype="dataType"/>
       </uml:Package>
+      <packagedElement xmi:type="uml:Class" xmi:id="u75aEoYCFkdre" name="Usuario">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="uV6PtEufe5Xrp" name="id" visibility="private" type="uTtSYxoVN6BJ3"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="uQi67MNyYK3z5" name="nombre" visibility="private" type="u8kZz8Y4feTwE"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="uO5U9TUwLeC8H" name="password" visibility="private" type="u8kZz8Y4feTwE"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="u36t5EkcnKUPz" name="email" visibility="private" type="u8kZz8Y4feTwE"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="ummXP2Fj2zvYF" name="rol" visibility="private" type="u8kZz8Y4feTwE"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="uNb26XaqF6uoZ" name="Alumno"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="udlfOLwjEMlhk" name="Empresa"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="uUZUd3e8J4D6S" name="Administrador"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="uXXfe2rrelkVC" name="Profesor"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="uSDCisUEC5fHC" name="Proyecto">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="u6vdfe6zPRrBF" name="id" visibility="private" type="uDpSUbqKVs3Ld"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="ugyqg0ISqGpiT" name="nombre" visibility="private" type="u8kZz8Y4feTwE"/>
+      </packagedElement>
       <xmi:Extension extender="umbrello">
         <diagrams resolution="96">
-          <diagram xmi.id="uPPQb4oKRgpk7" name="diagrama de clases" type="1" documentation="" backgroundcolor="#ffffff" fillcolor="#ffffc0" font="Ubuntu,10,-1,5,50,0,0,0,0,0" griddotcolor="#f7f7f7" linecolor="#990000" linewidth="0" textcolor="#000000" usefillcolor="1" showattribassocs="1" showatts="1" showattsig="1" showops="1" showopsig="1" showpackage="1" showpubliconly="0" showscope="1" showstereotype="2" localid="-1" showgrid="0" snapgrid="0" snapcsgrid="0" snapx="25" snapy="25" zoom="100" canvasheight="800" canvaswidth="1100" isopen="0">
-            <widgets/>
+          <diagram xmi.id="uPPQb4oKRgpk7" name="diagrama de clases" type="1" documentation="" backgroundcolor="#ffffff" fillcolor="#ffffc0" font="Ubuntu,10,-1,5,50,0,0,0,0,0" griddotcolor="#f7f7f7" linecolor="#990000" linewidth="0" textcolor="#000000" usefillcolor="1" showattribassocs="1" showatts="1" showattsig="1" showops="1" showopsig="1" showpackage="1" showpubliconly="0" showscope="1" showstereotype="2" localid="-1" showgrid="0" snapgrid="0" snapcsgrid="0" snapx="25" snapy="25" zoom="100" canvasheight="800" canvaswidth="1100" isopen="1">
+            <widgets>
+              <classwidget xmi.id="uSDCisUEC5fHC" localid="uItRruWc2K0H5" textcolor="#000000" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="0" usesdiagramusefillcolor="0" fillcolor="#ffffc0" font="Ubuntu,10,-1,5,50,0,0,0,0,0" autoresize="1" x="350" y="388" width="107" height="52" isinstance="0" showstereotype="2" showoperations="1" showpubliconly="0" showopsigs="601" showpackage="1" showscope="1" showattributes="1" showattsigs="601"/>
+              <classwidget xmi.id="uXXfe2rrelkVC" localid="uADpECOqvIzoz" textcolor="#000000" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="0" usesdiagramusefillcolor="0" fillcolor="#ffffc0" font="Ubuntu,10,-1,5,50,0,0,0,0,0" autoresize="1" x="557" y="300" width="65" height="29" isinstance="0" showstereotype="2" showoperations="1" showpubliconly="0" showopsigs="601" showpackage="1" showscope="1" showattributes="1" showattsigs="601"/>
+              <classwidget xmi.id="uUZUd3e8J4D6S" localid="uMq9tnUzTA4j5" textcolor="#000000" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="0" usesdiagramusefillcolor="0" fillcolor="#ffffc0" font="Ubuntu,10,-1,5,50,0,0,0,0,0" autoresize="1" x="144" y="101" width="99" height="29" isinstance="0" showstereotype="2" showoperations="1" showpubliconly="0" showopsigs="601" showpackage="1" showscope="1" showattributes="1" showattsigs="601"/>
+              <classwidget xmi.id="u75aEoYCFkdre" localid="urY91KjfK85VY" textcolor="#000000" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="0" usesdiagramusefillcolor="0" fillcolor="#ffffc0" font="Ubuntu,10,-1,5,50,0,0,0,0,0" autoresize="1" x="324" y="155" width="117" height="97" isinstance="0" showstereotype="2" showoperations="1" showpubliconly="0" showopsigs="601" showpackage="1" showscope="1" showattributes="1" showattsigs="601"/>
+              <classwidget xmi.id="udlfOLwjEMlhk" localid="uej0HwM90KUSL" textcolor="#000000" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="0" usesdiagramusefillcolor="0" fillcolor="#ffffc0" font="Ubuntu,10,-1,5,50,0,0,0,0,0" autoresize="1" x="145" y="304" width="63" height="29" isinstance="0" showstereotype="2" showoperations="1" showpubliconly="0" showopsigs="601" showpackage="1" showscope="1" showattributes="1" showattsigs="601"/>
+              <classwidget xmi.id="uNb26XaqF6uoZ" localid="uyjGK9DUoTCe6" textcolor="#000000" linecolor="#990000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="0" usesdiagramusefillcolor="0" fillcolor="#ffffc0" font="Ubuntu,10,-1,5,50,0,0,0,0,0" autoresize="1" x="552" y="82" width="58" height="29" isinstance="0" showstereotype="2" showoperations="1" showpubliconly="0" showopsigs="601" showpackage="1" showscope="1" showattributes="1" showattsigs="601"/>
+            </widgets>
             <messages/>
             <associations/>
           </diagram>
@@ -246,7 +268,7 @@
     <packagedElement xmi:type="uml:Model" xmi:id="Entity_Relationship_Model" name="Entity Relationship Model"/>
   </uml:Model>
   <xmi:Extension extender="umbrello">
-    <docsettings viewid="uetCCFSq8vQWQ" documentation="" uniqueid="uzlVQPZ6FKWD5"/>
+    <docsettings viewid="uPPQb4oKRgpk7" documentation="" uniqueid="ugyqg0ISqGpiT"/>
     <listview>
       <listitem id="Views" type="800" open="1">
         <listitem id="Entity_Relationship_Model" type="836" open="1"/>
@@ -276,7 +298,15 @@
         <listitem id="Component_View" type="821" open="1"/>
         <listitem id="Deployment_View" type="827" open="1"/>
         <listitem id="Logical_View" type="801" open="1">
+          <listitem id="uUZUd3e8J4D6S" type="813" open="1"/>
+          <listitem id="uNb26XaqF6uoZ" type="813" open="1"/>
           <listitem id="uPPQb4oKRgpk7" type="807" label="diagrama de clases" open="0"/>
+          <listitem id="udlfOLwjEMlhk" type="813" open="1"/>
+          <listitem id="uXXfe2rrelkVC" type="813" open="1"/>
+          <listitem id="uSDCisUEC5fHC" type="813" open="1">
+            <listitem id="u6vdfe6zPRrBF" type="814" open="0"/>
+            <listitem id="ugyqg0ISqGpiT" type="814" open="0"/>
+          </listitem>
           <listitem id="Datatypes" type="830" open="0">
             <listitem id="u2RuNzC5kMcTS" type="829" open="0"/>
             <listitem id="uxUebmg4jSz0m" type="829" open="0"/>
@@ -296,6 +326,13 @@
             <listitem id="u8kZz8Y4feTwE" type="829" open="0"/>
             <listitem id="uCbAJGsDnPNBb" type="829" open="0"/>
             <listitem id="up7PvvOUBpTpH" type="829" open="0"/>
+          </listitem>
+          <listitem id="u75aEoYCFkdre" type="813" open="1">
+            <listitem id="u36t5EkcnKUPz" type="814" open="0"/>
+            <listitem id="uV6PtEufe5Xrp" type="814" open="0"/>
+            <listitem id="uQi67MNyYK3z5" type="814" open="0"/>
+            <listitem id="uO5U9TUwLeC8H" type="814" open="0"/>
+            <listitem id="ummXP2Fj2zvYF" type="814" open="0"/>
           </listitem>
         </listitem>
       </listitem>
